@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home page</title>
+</head>
+<body>	
+
+	<h1>Welcome To Our Shop! SubProduct</h1>
+	<br>
+	<a href="/logout">Logout</a> 
+	<a href="/admin/account">My Account</a>
+	<a href="/admin/cart">My cart</a>
+	<a href="/admin/back">Back</a>
+	<br>
+<form>
+		<tr>
+			<h1>Product List</h1>
+		</tr>
+		<tr>
+		<a href="/admin/storage">STORAGE</a> |
+		<a href="/admin/monitor">MONITOR</a> |
+		<a href="/admin/ram">RAM</a> |
+		<a href="/admin/graphics">GRAPHICS</a>
+		</tr><br>
+		<% for(var i=0; i < userlist.length; i++){ %>
+		<a href="/admin/subProducts/<%= userlist[i].subCategory %>"><%= userlist[i].subCategory %></a>
+		<% } %>
+		<% for(var i=0; i < userlist.length; i++){ %>
+		<tr>
+		<form>
+			<table border="2">
+			<tr>
+				<td>
+					<%= userlist[i].Pid %>
+					<%= userlist[i].category %>
+					<%= userlist[i].subCategory %>
+					<%= userlist[i].type %>
+					<%= userlist[i].review %>
+					<%= userlist[i].brand %>
+					<%= userlist[i].price %>
+			Product ID: <%= userlist[i].Pid %> <br>
+			Product category: <%= userlist[i].category %>,<%= userlist[i].subCategory %>,<%= userlist[i].type %>,<%= userlist[i].review %><br>
+			Brand: <%= userlist[i].brand %><br>
+			Price: <%= userlist[i].price %><br><br>
+		      <a href="/admin/addToCart/<%= userlist[i].Pid %>">Add To Cart</a>
+		  </td>
+		  <br>
+		  </tr>
+		  </table>
+	    </form>
+		<% } %>
+</form>
+
+</body>
+</html>

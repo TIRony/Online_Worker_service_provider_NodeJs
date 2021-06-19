@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cart page</title>
+</head>
+<body>	
+
+	<h1>Your cart!</h1>
+	<br>
+	<a href="/logout">Logout</a> 
+	<a href="/admin/account">My Account</a>
+	<a href="/admin/back">Back</a>
+	<br>
+<form>
+		<tr>
+			<h1>Product List</h1>
+		</tr>
+		<% for(var i=0; i < userlist.length; i++){ %>
+		<tr>
+		<form>
+			<table border="2">
+			<tr>
+				<td>
+			Product ID: <%= userlist[i].Pid %> <br>
+			Product category: <%= userlist[i].category %>,<%= userlist[i].subCategory %>,<%= userlist[i].type %>,<%= userlist[i].review %><br>
+			Brand: <%= userlist[i].brand %><br>
+			Price: <%= userlist[i].price %><br><br>
+		  </td>
+		  <br>
+		  </tr>
+		  </table>
+	    </form>
+		<% } %>
+		Select a method: <br>
+		<input name="done" type="radio" value="Bkash">Bkash<br>
+        <input name="done" type="radio" value="Cash">Cash On Delivery
+        <a href="/admin/confirm">Confirm</a>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Customer Page</title>
+	<link rel="stylesheet" type="text/css" href="abc/style.css">
+</head>
+<body>
+	<div>
+		<h1>Welcome Home Customer! <%= user.userName%></h1> 		
+	</div>
+	<a href="/admin">Shop</a>
+	<a href="/customer/alluser"> My Information</a> |
+	<a href="/logout"> logout</a><br>
+
+
+	Name:<%= user.userName %>    <br>
+	Id: <%= user.id %> <br>
+	Password: <%= user.password %>
+</body>
+</html>
