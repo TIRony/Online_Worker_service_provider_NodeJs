@@ -61,7 +61,7 @@ There are 4-types of Users here:
 <img src="SS/er_Diagram.png" width="750"></img>
 </p>
 
-<h3>Tools used</h3>
+<h3>Used in project</h3>
 <b>To develop this project, we have used the following: </b>
 
     • VS Code. 
@@ -70,6 +70,8 @@ There are 4-types of Users here:
     • CSS.
     • HTML5.
     • MySQL.
+    • JavaScript.
+    
 
 
 <h3>System Image:</h3>
