@@ -58,7 +58,7 @@ There are 4-types of Users here:
 <b>ER Diagram:</b>
 
 <p align="center">
-<img src="Online%20Worker%20Service%20Provider%20(Easy4U)/SS/er_Diagram.png" width="750"></img>
+<img src="SS/er_Diagram.png" width="750"></img>
 </p>
 
 <h3>Tools used</h3>
@@ -77,31 +77,31 @@ There are 4-types of Users here:
 <b>Landing page:</b>
 
 <p align="center">
-<img src="Online%20Worker%20Service%20Provider%20(Easy4U)/SS/Home.jpg" width="750"></img>
+<img src="SS/Home.jpg" width="750"></img>
 </p>
     
 <b>Sign up & Login page:</b>
 
 <p align="center">
-<img src="Online%20Worker%20Service%20Provider%20(Easy4U)/SS/login.jpg" width="750"></img>
+<img src="SS/login.jpg" width="750"></img>
 </p>
     
 <b>Customer page:</b>
 
 <p align="center">
-<img src="Online%20Worker%20Service%20Provider%20(Easy4U)/SS/customer.jpg" width="750"></img>
+<img src="SS/customer.jpg" width="750"></img>
 </p>
     
 <b>Admin & Employee page:</b>
 
 <p align="center">
-<img src="Online%20Worker%20Service%20Provider%20(Easy4U)/SS/employee.jpg" width="750"></img>
+<img src="SS/employee.jpg" width="750"></img>
 </p>
 
 <b>Worker page:</b>
 
 <p align="center">
-<img src="Online%20Worker%20Service%20Provider%20(Easy4U)/SS/worker.jpg" width="750"></img>
+<img src="SS/worker.jpg" width="750"></img>
 </p>
 
 <h3>Impact of this project:</h3>
